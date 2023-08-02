@@ -50,15 +50,13 @@ const VoxelDog = () => {
         20 * Math.cos(0.2 * Math.PI)
       )
 
-      // 640 -> 240
-      // 8   -> 6
-      const scale = scH * 0.005 + 0.1
+      const scale = scH * 0.005 + 0.5
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
         scale,
         -scale,
-        0.01,
+        0.2,
         50000
       )
       camera.position.copy(initialCameraPosition)

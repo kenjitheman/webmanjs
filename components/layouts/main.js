@@ -1,7 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic"
 import { AnimatePresence } from "framer-motion";
-import { useEffect } from "react";
 import NavBar from "../navbar";
 import { Box, Container } from "@chakra-ui/react";
 import Footer from "../footer";
@@ -13,10 +12,6 @@ const LazyVoxelDog = dynamic(() => import("../voxel-dog"), {
 });
 
 const Main = ({ children, router }) => {
-  useEffect(() => {
-    document.cookie = 'chakra-ui-color-mode=some-value; SameSite=None; Secure';
-  }, []);
-
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -32,7 +27,6 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="kenjitheman" />
         <meta name="og:title" content="kenjitheman" />
         <meta property="og:type" content="website" />
-
         <title>kenjitheman</title>
       </Head>
 

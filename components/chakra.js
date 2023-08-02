@@ -6,7 +6,7 @@ export default function Chakra({ cookies, children }) {
     typeof cookies === 'string'
       ? cookieStorageManagerSSR(cookies, {
           path: '/',
-          sameSite: 'none',
+          SameSite: 'none',
           secure: true,
         })
       : localStorageManager;

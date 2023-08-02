@@ -77,7 +77,7 @@ const Navbar = (props) => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="https://github.com/kenjitheman" path={path}>
+          <LinkItem href="https://github.com/kenjitheman?tab=repositories" path={path}>
             works
           </LinkItem>
           <LinkItem href="https://t.me/kenjitheman" path={path}>
@@ -112,10 +112,7 @@ const Navbar = (props) => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={MenuLink} href="/">
-                  home
-                </MenuItem>
-                <MenuItem as={MenuLink} href="https://github.com/kenjitheman">
+                <MenuItem as={MenuLink} href="https://github.com/kenjitheman?tab=repositories">
                   works
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://t.me/kenjitheman">
@@ -131,7 +128,7 @@ const Navbar = (props) => {
                   as={Link}
                   href="https://github.com/kenjitheman/kenjitheman-web"
                 >
-                  view source
+                  source
                 </MenuItem>
               </MenuList>
             </Menu>
