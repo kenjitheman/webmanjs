@@ -11,25 +11,6 @@
 - og -> `https://www.youtube.com/watch?v=bSMZgXzC9AA`
 - og -> `https://github.com/craftzdog/craftzdog-homepage`
 
-## Installation
-
-```
-yarn install
-```
-
-## Usage
-- to start in dev mode
-```
-yarn dev
-```
-
-## Contributing
-
-- Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-- Please make sure to update tests as appropriate.
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
