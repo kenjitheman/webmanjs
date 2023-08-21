@@ -12,12 +12,6 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://media.tenor.com/NOZpG7NaZ6wAAAAC/cool-anime-girl-amina-tricks.gif"  />
-</div>
-
-###
-
 - og -> `https://www.youtube.com/watch?v=bSMZgXzC9AA`
 - og -> `https://github.com/craftzdog/craftzdog-homepage`
 
