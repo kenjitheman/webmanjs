@@ -99,7 +99,7 @@ const Home = () => (
             <a href="https://skillicons.dev">
               <img
                 style={{ textAlign: "center", marginTop: "10%" }}
-                src="https://skillicons.dev/icons?i=golang,rust,ts,nodejs,js,elixir,bash,lua,py,c,cpp,linux,neovim,git,github,githubactions,html,css,sass,react,nextjs,nestjs,mysql,postgres,sqlite,mongodb,redis,graphql,docker,kubernetes,aws,cloudflare,nginx,postman,rabbitmq,threejs&perline=6"
+                src="https://skillicons.dev/icons?i=golang,rust,ts,nodejs,js,elixir,bash,lua,py,c,cpp,linux,neovim,git,github,githubactions,html,css,sass,react,nextjs,nestjs,mysql,postgres,sqlite,mongodb,redis,graphql,docker,kubernetes,aws,cloudflare,nginx,postman,rabbitmq,threejs&perline=7"
                 alt="tech stack"
               />
             </a>
