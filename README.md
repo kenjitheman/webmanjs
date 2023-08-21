@@ -1,7 +1,3 @@
-<h2 align="left">kenjitheman | website</h2>
-
-###
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="150" alt="javascript logo"  />
   <img width="40" />
