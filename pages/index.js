@@ -80,9 +80,10 @@ const Home = () => (
           who_am_i
         </Heading>
         <Paragraph>
-          I&apos;m a software developer/engineer. My tech stack these days: Golang,
-          Rust, Node.js, JavaScript, TypeScript, Elixir, Python and i also had a
-          short experience with c/c++/lua. Below you can find tech stack i've worked with.
+          If you’re wondering about my knowledge and tech stack, well, you have it. 
+          Golang, Rust, Node.js, JavaScript, TypeScript, Elixir, Python. 
+          But that’s not where it ends — I’ve also dabbled in C, C++, Lua and others, just to keep things interesting. 
+          My days are filled with lines of code, debugging sessions, and the exhilarating satisfaction of solving problems and of course learning and exploring more and more.
         </Paragraph>
       </Section>
 
