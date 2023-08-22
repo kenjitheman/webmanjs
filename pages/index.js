@@ -81,18 +81,15 @@ const Home = () => (
           who_am_i
         </Heading>
         <Paragraph>
-          I&apos;m a passionate backend developer. My tech stack these days: Golang,
+          I&apos;m a software developer/engineer. My tech stack these days: Golang,
           Rust, Node.js, JavaScript, TypeScript, Elixir, Python and i also had a
-          short experience with c/c++/lua. Also can be full stack developer, but
-          i don&apos;t like it, but if i need - i can, I&apos;m interested in backend
-          stuff and want to position myself as a backend developer. Below you
-          will find my technology stack.
+          short experience with c/c++/lua. Below you can find tech stack i've worked with.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          my stack these days:
+          tech stack these days:
         </Heading>
         <BioSection>
           <p style={{ textAlign: "center" }}>
@@ -136,7 +133,7 @@ const Home = () => (
         </Heading>
         <Paragraph style={{ textAlign: "center" }}>
           <Link href="https://github.com/kenjitheman" target="_blank">
-            coding, programming, software enginnering
+            coding, programming, software enginnering, software, CS, software development
           </Link>
           ,{"  "}
           <Link
@@ -185,21 +182,6 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 @kenjith3man
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem style={{ paddingBottom: "1%" }}>
-            <Link
-              href="https://www.linkedin.com/in/kenjitheman"
-              target="_blank"
-            >
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoLinkedin />}
-              >
-                @kenjitheman
               </Button>
             </Link>
           </ListItem>
