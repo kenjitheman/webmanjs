@@ -17,7 +17,6 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import {
   IoLogoGithub,
-  IoLogoLinkedin,
   IoLogoReddit,
   IoLogoTwitter,
 } from "react-icons/io5";
