@@ -152,7 +152,7 @@ const Home = () => (
         </Heading>
         <List style={{ textAlign: "center" }}>
           <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/kenjitheman" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
