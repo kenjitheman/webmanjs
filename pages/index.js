@@ -17,7 +17,6 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import {
   IoLogoGithub,
-  IoLogoReddit,
   IoLogoTwitter,
 } from "react-icons/io5";
 import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
@@ -182,21 +181,6 @@ const Home = () => (
                 leftIcon={<IoLogoTwitter />}
               >
                 @kenjith3man
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem style={{ paddingBottom: "1%" }}>
-            <Link
-              href="https://www.reddit.com/user/shikigayomi"
-              target="_blank"
-            >
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoReddit />}
-              >
-                @kenjitheman
               </Button>
             </Link>
           </ListItem>
