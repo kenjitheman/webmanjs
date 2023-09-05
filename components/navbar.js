@@ -83,7 +83,7 @@ const Navbar = (props) => {
           <LinkItem href="https://t.me/kenjitheman" path={path}>
             contact
           </LinkItem>
-          <LinkItem href="https://github.com/kenjitheman/kenjitheman" path={path}>
+          <LinkItem href="https://github.com/kenjitheman" path={path}>
             about
           </LinkItem>
           <LinkItem
