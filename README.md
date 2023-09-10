@@ -1,2 +1,0 @@
-- og -> `https://www.youtube.com/watch?v=bSMZgXzC9AA`
-- og -> `https://github.com/craftzdog/craftzdog-homepage`
