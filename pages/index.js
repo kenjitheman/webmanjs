@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import {
   Box,
   Button,
@@ -19,7 +18,7 @@ import {
   IoLogoGithub,
   IoLogoTwitter,
 } from "react-icons/io5";
-import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import Image from "next/image";
 
 const ProfileImage = chakra(Image, {
