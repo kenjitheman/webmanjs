@@ -113,7 +113,7 @@ const Navbar = (props) => {
               />
               <MenuList>
                 <MenuItem as={MenuLink} href="https://github.com/kenjitheman?tab=repositories">
-                  works
+                  projects
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://t.me/kenjitheman">
                   contact
