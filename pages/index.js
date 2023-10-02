@@ -37,7 +37,7 @@ const Home = () => (
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         css={{ backdropFilter: "blur(10px)" }}
       >
-        hello, i&apos;m Kenji, backend developer/software engineer
+        sup, i&apos;m kenjitheman
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             kenjitheman
           </Heading>
-          <p>software enginner/backend developer</p>
+          <p>software developer/backend developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,12 +76,12 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          who_am_i
+          who_am_i:
         </Heading>
         <Paragraph>
-          If you’re wondering about my knowledge and tech stack, well, you have it. 
-          Golang, Rust, Node.js, JavaScript, TypeScript, Elixir, Python. 
-          But that’s not where it ends — I’ve also dabbled in C, C++, Lua and others, just to keep things interesting. 
+          If you’re wondering about my knowledge and tech stack, well, you have it.
+          Golang, Rust, Node.js, JavaScript, TypeScript, Elixir, Python.
+          But that’s not where it ends — I’ve also dabbled in C, C++, Lua and others, just to keep things interesting.
           My days are filled with lines of code, debugging sessions, and the exhilarating satisfaction of solving problems and of course learning and exploring more and more.
         </Paragraph>
       </Section>
@@ -132,7 +132,7 @@ const Home = () => (
         </Heading>
         <Paragraph style={{ textAlign: "center" }}>
           <Link href="https://github.com/kenjitheman" target="_blank">
-            coding, programming, software enginnering, software, CS, software development
+            coding, neovim, programming, software engineering, software, CS, software development, dotfiles
           </Link>
           ,{"  "}
           <Link
@@ -154,7 +154,7 @@ const Home = () => (
             <Link href="https://github.com/kenjitheman" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoGithub />}
               >
                 @kenjitheman
@@ -165,7 +165,7 @@ const Home = () => (
             <Link href="https://t.me/kenjitheman" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<FaTelegram />}
               >
                 @kenjitheman
@@ -177,7 +177,7 @@ const Home = () => (
             <Link href="https://twitter.com/kenjith3man" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<IoLogoTwitter />}
               >
                 @kenjith3man
@@ -189,7 +189,7 @@ const Home = () => (
             <Link href="mailto:kenjitheman@proton.me" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
+                colorScheme="purple"
                 leftIcon={<EmailIcon />}
               >
                 kenjitheman@proton.me
@@ -210,7 +210,7 @@ const Home = () => (
             href="https://t.me/kenjitheman"
             scroll={false}
             leftIcon={<FaTelegramPlane />}
-            colorScheme="teal"
+            colorScheme="purple"
           >
             contact me
           </Button>
