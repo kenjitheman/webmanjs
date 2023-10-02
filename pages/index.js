@@ -79,7 +79,7 @@ const Home = () => (
           curious about my tech expertise and preferences? well, here's a glimpse into my world:
         </Paragraph>
         <Paragraph>
-          in my toolbox, i have a dynamic array of frameworks and libraries, each serving a unique purpose of course, 
+          in my toolbox, i have a dynamic array of languages, frameworks and libraries, each serving a unique purpose of course, 
           also i have a sleek neovim setup that's nothing short of a work of art
           and, as a devoted arch linux user, I've meticulously curated my dotfiles for optimal performance and aesthetics
         </Paragraph>
