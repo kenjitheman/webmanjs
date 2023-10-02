@@ -40,7 +40,7 @@ const Home = () => (
         sup, i&apos;m kenjitheman
       </Box>
 
-      <Box display={{ md: "flex" }}>
+      <Box display={{ md: "flex" }}  style={{ marginBottom: "5%" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             kenjitheman
@@ -75,41 +75,27 @@ const Home = () => (
       </Box>
 
       <Section delay={0.1}>
-        <Heading as="h3" variant="section-title">
-          who_am_i:
-        </Heading>
         <Paragraph>
-          If you’re wondering about my knowledge and tech stack, well, you have it.
-          Golang, Rust, Node.js, JavaScript, TypeScript, Elixir, Python.
-          But that’s not where it ends — I’ve also dabbled in C, C++, Lua and others, just to keep things interesting.
-          My days are filled with lines of code, debugging sessions, and the exhilarating satisfaction of solving problems and of course learning and exploring more and more.
+          curious about my tech expertise and preferences? well, here's a glimpse into my world:
+        </Paragraph>
+        <Paragraph>
+          in my toolbox, i have a dynamic array of frameworks and libraries, each serving a unique purpose of course, 
+          also i have a sleek neovim setup that's nothing short of a work of art
+          and, as a devoted arch linux user, I've meticulously curated my dotfiles for optimal performance and aesthetics
+        </Paragraph>
+        <br />
+        <Paragraph>
+          my days are filled with lines of code, debugging sessions, and the exhilarating satisfaction of solving problems and of course learning and exploring more and more
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          tech stack these days:
-        </Heading>
-        <BioSection>
-          <p style={{ textAlign: "center" }}>
-            <a href="https://skillicons.dev">
-              <img
-                style={{ textAlign: "center", marginTop: "10%" }}
-                src="https://skillicons.dev/icons?i=golang,rust,ts,nodejs,js,elixir,bash,lua,py,c,cpp,linux,neovim,git,github,githubactions,html,css,sass,react,nextjs,nestjs,mysql,postgres,sqlite,mongodb,redis,graphql,docker,kubernetes,aws,cloudflare,nginx,postman,rabbitmq&perline=7"
-                alt="tech stack"
-              />
-            </a>
-          </p>
-        </BioSection>
-      </Section>
-
-      <Section delay={0.3}>
+      <Section delay={0.2}>
         <BioSection style={{ marginBottom: "10px" }}>
           <p style={{ textAlign: "center" }}>
             <a href="https://github.com/ryo-ma/github-profile-trophy">
               <img
-                style={{ width: "80%" }}
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=kenjitheman&hide_border=false&theme=radical&layout=compact&hide_progress=false&hide=jupyter%20notebook&langs_count=10"
+                style={{ width: "90%" }}
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=kenjitheman&hide_border=false&theme=radical&layout=compact&hide_progress=false&hide=jupyter%20notebook&langs_count=20"
                 alt="most used langs"
               />
             </a>
@@ -132,7 +118,7 @@ const Home = () => (
         </Heading>
         <Paragraph style={{ textAlign: "center" }}>
           <Link href="https://github.com/kenjitheman" target="_blank">
-            coding, neovim, programming, software engineering, software, CS, software development, dotfiles
+            coding, neovim, programming, linux, software engineering, software, CS, software development, dotfiles
           </Link>
           ,{"  "}
           <Link
@@ -145,9 +131,9 @@ const Home = () => (
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
-          socials:
+          me on the web:
         </Heading>
         <List style={{ textAlign: "center" }}>
           <ListItem style={{ paddingBottom: "1%" }}>
@@ -198,23 +184,6 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <Heading as="h3" variant="section-title">
-          <p>
-            let&apos;s work !
-          </p>
-        </Heading>
-
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://t.me/kenjitheman"
-            scroll={false}
-            leftIcon={<FaTelegramPlane />}
-            colorScheme="purple"
-          >
-            contact me
-          </Button>
-        </Box>
       </Section>
     </Container>
   </Layout>
