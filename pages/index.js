@@ -39,7 +39,7 @@ const Home = () => (
         sup, i&apos;m kenjitheman
       </Box>
 
-      <Box display={{ md: "flex" }}  style={{ marginBottom: "5%" }}>
+      <Box display={{ md: "flex" }} style={{ marginBottom: "5%" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             kenjitheman
@@ -78,7 +78,7 @@ const Home = () => (
           curious about my tech expertise and preferences? well, here's a glimpse into my world:
         </Paragraph>
         <Paragraph>
-          in my toolbox, i have a dynamic array of languages, frameworks and libraries, each serving a unique purpose of course, 
+          in my toolbox, i have a dynamic array of languages, frameworks and libraries, each serving a unique purpose of course,
           also i have a sleek neovim setup that's nothing short of a work of art
           and, as a devoted arch linux user, I've meticulously curated my dotfiles for optimal performance and aesthetics
         </Paragraph>
@@ -159,25 +159,13 @@ const Home = () => (
           </ListItem>
 
           <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://twitter.com/kenjith3man" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="purple"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @kenjith3man
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="mailto:kenjitheman@proton.me" target="_blank">
+            <Link href="mailto:kenjith3man@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="purple"
                 leftIcon={<EmailIcon />}
               >
-                kenjitheman@proton.me
+                mail_me
               </Button>
             </Link>
           </ListItem>
