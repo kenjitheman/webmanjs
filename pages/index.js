@@ -16,7 +16,6 @@ import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import {
   IoLogoGithub,
-  IoLogoTwitter,
 } from "react-icons/io5";
 import { FaTelegram } from "react-icons/fa";
 import Image from "next/image";
@@ -146,6 +145,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+
           <ListItem style={{ paddingBottom: "1%" }}>
             <Link href="https://t.me/kenjitheman" target="_blank">
               <Button
