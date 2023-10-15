@@ -99,7 +99,7 @@ const Navbar = (props) => {
                         code
                     </LinkItem>
                     <LinkItem href="https://threejs.org/examples/webgl_loader_mmd_audio.html" path={path}>
-                        concert
+                        waifu and me
                     </LinkItem>
                 </Stack>
 
@@ -137,7 +137,7 @@ const Navbar = (props) => {
                                     as={Link}
                                     href="https://threejs.org/examples/webgl_loader_mmd_audio.html"
                                 >
-                                    concert
+                                    waifu and me
                                 </MenuItem>
                             </MenuList>
                         </Menu>
