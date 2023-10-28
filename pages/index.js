@@ -120,7 +120,7 @@ const Home = () => (
           </Link>
           ,{"  "}
           <Link
-            href="https://myanimelist.net/profile/shikigayomi"
+            href="https://myanimelist.net/profile/kenjitheman"
             target="_blank"
           >
             anime
