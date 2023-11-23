@@ -33,7 +33,12 @@ const Home = () => (
                 mb={6}
                 p={3}
                 textAlign="center"
-                bg={useColorModeValue("whiteAlpha.800", "whiteAlpha.200")}
+                bg={'transparent'}
+                fontSize={'xl'}
+                fontWeight={'bold'}
+                rounded={'2xl'}
+                border={'1px solid'}
+                borderColor={useColorModeValue('gray.300', 'gray.900')}
                 css={{ backdropFilter: "blur(10px)" }}
             >
                 ¯\_(ツ)_/¯ | ( ゜-゜) | (º _ º)
