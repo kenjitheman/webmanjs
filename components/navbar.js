@@ -125,12 +125,6 @@ const Navbar = (props) => {
                                 </MenuItem>
                                 <MenuItem
                                     as={Link}
-                                    href="https://github.com/kenjitheman/kenjitheman.dev"
-                                >
-                                    source
-                                </MenuItem>
-                                <MenuItem
-                                    as={Link}
                                     href="https://threejs.org/examples/webgl_loader_mmd_audio.html"
                                 >
                                     waifu and me
