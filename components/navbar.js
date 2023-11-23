@@ -16,20 +16,24 @@ import {
     useColorModeValue,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import ThemeToggleButton from "./theme-toggle-button";
-import { IoLogoGithub } from "react-icons/io5";
+import ThemeToggleButton from "./theme_toggle_button";
 
-const LinkItem = ({ href, path, target, children, ...props }) => {
-    const active = path === href;
-    const inactiveColor = useColorModeValue("gray.800", "whiteAlpha.900");
+const LinkItem = ({ href, target, children, ...props }) => {
     return (
         <Link
             as={NextLink}
             href={href}
+            fontWeight="regular"
+            fontSize="lg"
+            color={useColorModeValue("black", "white")}
             scroll={false}
-            p={2}
-            bg={active ? "grassTeal" : undefined}
-            color={active ? "#202023" : inactiveColor}
+            _hover={{
+                rounded: "xl",
+                textDecoration: "none",
+                border: "1px solid",
+                borderColor: useColorModeValue("gray.700", "gray.400"),
+            }}
+            p={2.5}
             target={target}
             {...props}
         >
@@ -50,20 +54,23 @@ const Navbar = (props) => {
             position="fixed"
             as="nav"
             w="100%"
-            bg={useColorModeValue("#ffffff40", "#20202380")}
+            bg={useColorModeValue("transparent", "transparent")}
             css={{ backdropFilter: "blur(10px)" }}
+            justifyContent="space-between"
+            borderBottom="1px solid"
+            borderBottomColor={useColorModeValue("gray.200", "gray.900")}
             zIndex={2}
             {...props}
         >
             <Container
                 display="flex"
                 p={2}
-                maxW="container.md"
+                maxW="container.lg"
                 wrap="wrap"
                 align="center"
                 justify="space-between"
             >
-                <Flex align="center" mr={5}>
+                <Flex align="center">
                     <Heading as="h1" size="lg" letterSpacing={"tighter"}>
                         <Logo />
                     </Heading>
@@ -84,19 +91,7 @@ const Navbar = (props) => {
                         contact
                     </LinkItem>
                     <LinkItem href="https://github.com/kenjitheman" path={path}>
-                        about
-                    </LinkItem>
-                    <LinkItem
-                        target="_blank"
-                        href="https://github.com/kenjitheman/kenjitheman.dev"
-                        path={path}
-                        display="inline-flex"
-                        alignItems="center"
-                        style={{ gap: 4 }}
-                        pl={2}
-                    >
-                        <IoLogoGithub />
-                        code
+                        github
                     </LinkItem>
                     <LinkItem href="https://threejs.org/examples/webgl_loader_mmd_audio.html" path={path}>
                         waifu and me
@@ -113,6 +108,7 @@ const Navbar = (props) => {
                                 icon={<HamburgerIcon />}
                                 variant="outline"
                                 aria-label="Options"
+                                size="lg"
                             />
                             <MenuList>
                                 <MenuItem as={MenuLink} href="https://github.com/kenjitheman?tab=repositories">
