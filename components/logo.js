@@ -4,41 +4,36 @@ import FootprintIcon from './icons/footprint'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
-  font-weight: bold;
-  font-size: 20px;
-  display: inline-flex;
-  align-items: center;
-  height: 40px;
-  line-height: 20px;
-  padding: 10px;
-
-  > svg {
+font-weight: bold;
+font-size: 30px;
+display: inline-flex;
+align-items: center;
+> svg {
     transition: 200ms ease;
-  }
+}
 
-  &:hover > svg {
-    transform: rotate(360deg);
-  }
+    &:hover > svg {
+        transform: rotate(360deg);
+    }
 `
 
 const Logo = () => {
-  return (
-    (<Link href="/" scroll={false}>
+    return (
+        (<Link href="/" scroll={false}>
 
-      <LogoBox>
-        <FootprintIcon />
-        <Text
-          color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-          fontFamily='M PLUS Rounded 1c", sans-serif'
-          fontWeight="bold"
-          ml={3}
-        >
-          kenjitheman
-        </Text>
-      </LogoBox>
+            <LogoBox>
+                <FootprintIcon />
+                <Text
+                    color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+                    fontWeight="bold"
+                    mr={2}
+                >
+                    kenjitheman
+                </Text>
+            </LogoBox>
 
-    </Link>)
-  );
+        </Link>)
+    );
 }
 
 export default Logo
