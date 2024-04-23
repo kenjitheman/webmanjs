@@ -24,11 +24,11 @@ const Logo = () => {
             <LogoBox>
                 <FootprintIcon />
                 <Text
-                    color={useColorModeValue("gray.800", "whiteAlpha.900")}
+                    color={useColorModeValue("black", "white")}
                     fontWeight="bold"
-                    mr={2}
+                    mr={1}
                 >
-                    btwkenji
+                    kenjitheman
                 </Text>
             </LogoBox>
 

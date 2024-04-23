@@ -1,4 +1,4 @@
-import { Box, Button, chakra, Container, Heading, Link, List, ListItem, useColorModeValue } from "@chakra-ui/react";
+import { Box, Button, chakra, Text, Container, Heading, Link, List, ListItem, useColorModeValue } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -12,8 +12,8 @@ const ProfileImage = chakra(Image, {
 
 const Home = () => (
     <Layout
-        title="btwkenji"
-        description="Software Developer"
+        title="kenjitheman"
+        description="Software Engineer, Tech Enthusiast, Weeaboo, Life Enjoyer"
     >
         <Container
             maxW="container.md"
@@ -30,16 +30,19 @@ const Home = () => (
                 border={"1px solid"}
                 borderColor={useColorModeValue("gray.300", "gray.900")}
                 css={{ backdropFilter: "blur(10px)" }}
+                color={useColorModeValue("black", "white")}
             >
                 ¯\_(ツ)_/¯ | ( ゜-゜) | (º _ º)
             </Box>
 
             <Box display={{ md: "flex" }} style={{ marginBottom: "5%" }}>
                 <Box flexGrow={1}>
-                    <Heading as="h2" variant="page-title">
-                        btwkenji
+                    <Heading as="h2" variant="page-title" color={useColorModeValue("black", "white")}>
+                        # kenjitheman
                     </Heading>
-                    <p>Software developer</p>
+                    <Text color={useColorModeValue("black", "gray.200")}>
+                        ["Software Engineer", "Tech Enthusiast", "Weeaboo", "Life Enjoyer" ]
+                    </Text>
                 </Box>
                 <Box
                     flexShrink={0}
@@ -69,19 +72,19 @@ const Home = () => (
             </Box>
 
             <Section delay={0.1}>
-                <Paragraph>
-                    Just a guy, an enthusiast on a mission to elevate my developer workflow, construct high-performance projects, delve into the intricacies of memory, and ultimately engineer remarkable software. Wondering about my tech expertise and preferences? Here's a glimpse into my realm:
+                <Paragraph color={useColorModeValue("black", "gray.200")}>
+                    Hey there! I’m just a guy, software engineer, tech enthusiast, weeaboo guy, life enjoyer, a quest to elevate my developer workflow, build high-performance projects, explore the intricacies of memory, and craft remarkable software.
                 </Paragraph>
                 <br />
-                <Paragraph>
-                    My toolkit is a dynamic amalgamation of various languages, frameworks, and libraries, each meticulously selected for its distinct purpose. Notably, btw, my Neovim setup on Arch Linux is a sleek masterpiece, with dotfiles curated to perfection for both optimal performance and aesthetics.
+                <Paragraph color={useColorModeValue("black", "gray.200")}>
+                    Try to live by the philosophy of “Do what you love, love what you do.” I’m passionate about technology, and I’m always eager to learn and grow. I’m a software engineer, and I’m constantly striving to improve my skills and knowledge. I’m a big fan of open-source software and the Linux ecosystem. I’m also a huge fan of the Rust programming language and the Go programming language. I’m always looking for ways to improve my workflow and make my life easier.
                 </Paragraph>
                 <br />
-                <Paragraph>
-                    My days unfold with the rhythm of lines of code, debugging sessions, and the gratification of solving challenges, all while continually learning and exploring new horizons. I approach technology with passion, finding joy and fun in every aspect.
+                <Paragraph color={useColorModeValue("black", "gray.200")}>
+                    Love my neovim (btw) setup on Arch Linux (btw), and I’m always tweaking my dotfiles to make them perfect for both performance and aesthetics. My days are filled with the rhythm of lines of code, debugging/anime watching/manga reading sessions, and the satisfaction of solving problems. I approach software with passion, finding joy and fun in every aspect.
                 </Paragraph>
-                <Paragraph>
-                    — Member of the #no_js club.
+                <Paragraph color={useColorModeValue("black", "gray.200")}>
+                    I’m always looking for new challenges and new ways to improve myself and continue this endless cycle of self-improvement.
                 </Paragraph>
             </Section>
             <Section delay={0.2}>
@@ -90,29 +93,30 @@ const Home = () => (
                         <img
                             mx="auto"
                             width="100%"
-                            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=btwkenji&hide_border=false&layout=compact&hide_progress=false&hide=jupyter%20notebook&langs_count=20&theme=${useColorModeValue("white", "radical")}`}
+                            src={`https://github-readme-stats.vercel.app/api/top-langs/?username=kenjitheman&hide_border=false&layout=compact&hide_progress=false&hide=jupyter%20notebook&langs_count=20&theme=${useColorModeValue("white", "radical")}`}
                             alt="most used languages"
                         />
                     </a>
                 </Container>
             </Section>
             <Section delay={0.3}>
-                <Heading as="h3" variant="section-title">
-                    大好きです：
+                <Heading as="h3" variant="section-title" color={useColorModeValue("black", "white")}>
+                    # 大好きです
                 </Heading>
                 <Paragraph
                     fontSize="1.3rem"
+                    color={useColorModeValue("black", "gray.200")}
                 >
                     <Link
-                        href="https://github.com/btwkenji"
+                        href="https://github.com/kenjitheman"
                         target="_blank"
                         color={useColorModeValue("black", "purple.400")}
                     >
-                        Coding, neovim, programming, linux, software engineering, software, CS, software development, dotfiles
+                        Coding, neovim, programming, linux, software engineering, CS, dotfiles, weeaboo stuff
                     </Link>
                     ,{"  "}
                     <Link
-                        href="https://myanimelist.net/profile/btwkenji"
+                        href="https://myanimelist.net/profile/plastiey"
                         target="_blank"
                         color={useColorModeValue("black", "purple.400")}
                     >
@@ -128,7 +132,7 @@ const Home = () => (
                     fontSize="1.5rem"
                     color={useColorModeValue("black", "purple.400")}
                 >
-                    Me on the web:
+                    # Me on the web
                 </Heading>
                 <Socials />
             </Section>

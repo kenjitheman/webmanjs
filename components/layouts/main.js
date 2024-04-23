@@ -11,19 +11,16 @@ const LazyVoxelDog = dynamic(() => import("../model"), {
     loading: () => <VoxelDogLoader />
 });
 
+const description = "Hey there! I’m just a guy, software engineer, tech enthusiast, weeaboo guy, life enjoyer, a quest to elevate my developer workflow, build high-performance projects, explore the intricacies of memory, and craft remarkable software.";
+
 const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="description" content="kenjitheman's homepage" />
+                <meta name="description" content={description} />
                 <meta name="author" content="kenjitheman" />
-                <link rel="apple-touch-icon" href="apple-touch-icon.png" />
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-                <link rel="icon" type="image/png" href="/android-chrome-512x512.png" />
-                <link rel="icon" type="image/png" href="/android-chrome-192x192.png" />
-                <link rel="icon" type="image/png" href="/favicon-32x32.png" />
-                <link rel="icon" type="image/png" href="/favicon-16x16.png" />
                 <meta property="og:site_name" content="kenjitheman" />
                 <meta name="og:title" content="kenjitheman" />
                 <meta property="og:type" content="website" />
@@ -35,7 +32,7 @@ const Main = ({ children, router }) => {
             <Container maxW="container.xl" pt={14}>
                 <LazyVoxelDog />
 
-                <AnimatePresence initial={true} exitBeforeEnter={false} mode="wait">
+                <AnimatePresence initial={true} mode="wait">
                     {children}
                 </AnimatePresence>
 

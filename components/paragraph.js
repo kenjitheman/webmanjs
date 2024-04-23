@@ -6,6 +6,7 @@ const Paragraph = styled.p`
     hyphens: auto;
     word-break: break-word;
     font-family: 'Inter', sans-serif;
+    color: ${(props) => (props.color ? props.color : "inherit")};
 `;
 
 export default Paragraph;

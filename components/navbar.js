@@ -27,12 +27,6 @@ const LinkItem = ({ href, target, children, ...props }) => {
             fontSize="lg"
             color={useColorModeValue("black", "white")}
             scroll={false}
-            _hover={{
-                rounded: "xl",
-                textDecoration: "none",
-                border: "1px solid",
-                borderColor: useColorModeValue("gray.700", "gray.400")
-            }}
             p={2.5}
             target={target}
             {...props}
@@ -71,7 +65,7 @@ const Navbar = (props) => {
                 justify="space-between"
             >
                 <Flex align="center">
-                    <Heading as="h1" size="lg" letterSpacing={"tighter"}>
+                    <Heading as="h1" size="lg" letterSpacing={"tighter"} color={useColorModeValue("black", "white")}>
                         <Logo />
                     </Heading>
                 </Flex>
@@ -85,16 +79,16 @@ const Navbar = (props) => {
                     mt={{ base: 4, md: 0 }}
                 >
                     <LinkItem href="https://github.com/kenjitheman?tab=repositories" path={path}>
-                        projects
+                        &projects
                     </LinkItem>
                     <LinkItem href="https://t.me/kenjitheman" path={path}>
-                        contact
+                        &contact
                     </LinkItem>
-                    <LinkItem href="https://github.com/kenjitheman" path={path}>
-                        github
+                    <LinkItem href="support" path={path}>
+                        &support_me
                     </LinkItem>
-                    <LinkItem href="https://threejs.org/examples/webgl_loader_mmd_audio.html" path={path}>
-                        waifu and me
+                    <LinkItem href="https://github.com/kenjitheman/cv/blob/main/cv.pdf" path={path}>
+                        &cv
                     </LinkItem>
                 </Stack>
 
@@ -112,22 +106,22 @@ const Navbar = (props) => {
                             />
                             <MenuList>
                                 <MenuItem as={MenuLink} href="https://github.com/kenjitheman?tab=repositories">
-                                    projects
+                                    &projects
                                 </MenuItem>
                                 <MenuItem as={MenuLink} href="https://t.me/kenjitheman">
-                                    contact
+                                    &contact
                                 </MenuItem>
                                 <MenuItem
                                     as={MenuLink}
-                                    href="https://github.com/kenjitheman"
+                                    href="support"
                                 >
-                                    github
+                                    &support_me
                                 </MenuItem>
                                 <MenuItem
                                     as={Link}
-                                    href="https://threejs.org/examples/webgl_loader_mmd_audio.html"
+                                    href="https://github.com/kenjitheman/cv/blob/main/cv.pdf"
                                 >
-                                    waifu and me
+                                    &cv
                                 </MenuItem>
                             </MenuList>
                         </Menu>
