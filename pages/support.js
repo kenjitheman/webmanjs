@@ -11,13 +11,13 @@ const Support = () => {
         >
             <Container
                 align="center"
-                width="container.lg"
+                alignContent="center"
+                maxW="container.lg"
             >
-                <Heading as="h1">support me</Heading>
-                <Box display={{ md: "flex" }} style={{ marginTop: "5%" }} width="container.xl">
-                    <br />
+                <Heading as="h1" pb={"5%"}>support me</Heading>
+                <Box align="center" justify="center" direction="column" alignContent={"center"} w={"100%"}>
                     <Section delay={0.4}>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -31,11 +31,12 @@ const Support = () => {
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 bc1q5qmnzhxlv9dn6pjzc4nv9w76scyn64wcm5ur0x
                             </Text>
                         </Box>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -44,19 +45,17 @@ const Support = () => {
                                 # ETH:
                             </Heading>
                             <Text
-                                // copy on click
-                                onClick={() => navigator.clipboard.writeText("0xd5e3E7e717Ad5e2728b64d3D23D3a2132cAB9564")}
-
                                 fontSize="1.2rem"
                                 color={useColorModeValue("black", "white")}
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 0xd5e3E7e717Ad5e2728b64d3D23D3a2132cAB9564
                             </Text>
                         </Box>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -70,11 +69,12 @@ const Support = () => {
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 CrC1AVxNddg74GJHjJBZzfnDNoM4JFGjWwVwZAFBpeYD
                             </Text>
                         </Box>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -88,11 +88,12 @@ const Support = () => {
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 EQCmxr8QYpdow8O-gM2P9t4xnkdQCoQnypLx17hpNx3IqzA0
                             </Text>
                         </Box>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -106,11 +107,12 @@ const Support = () => {
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 TTP5DX9gdy1ihBphuSF9nGy5pKzEvD7nkT
                             </Text>
                         </Box>
-                        <Box display={{ md: "flex" }}>
+                        <Box display={"column"}>
                             <Heading as="h3"
                                 variant="section-title"
                                 fontSize="1.5rem"
@@ -124,6 +126,7 @@ const Support = () => {
                                 p={2}
                                 align="center"
                                 alignSelf={"center"}
+                                flexWrap={"wrap"}
                             >
                                 <NextLink href="https://ko-fi.com/kenjitheman" target="_blank">
                                     ko-fi.com/kenjitheman
@@ -131,7 +134,7 @@ const Support = () => {
                             </Text>
                         </Box>
                     </Section>
-                </Box>
+                </Box >
                 <Divider />
                 <Box my={4} align="center">
                     <Button
@@ -148,7 +151,7 @@ const Support = () => {
                         homepage
                     </Button>
                 </Box>
-            </Container>
+            </Container >
         </Layout >
     );
 };
