@@ -7,7 +7,11 @@ const LogoBox = styled.span`
 font-weight: bold;
 font-size: 30px;
 display: inline-flex;
+cursor: pointer;
+padding: 0.4rem;
 align-items: center;
+justify-content: center;
+align-self: center;
 > svg {
     transition: 200ms ease;
 }
@@ -26,7 +30,6 @@ const Logo = () => {
                 <Text
                     color={useColorModeValue("black", "white")}
                     fontWeight="bold"
-                    mr={1}
                 >
                     kenjitheman
                 </Text>

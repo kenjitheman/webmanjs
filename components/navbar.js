@@ -65,7 +65,7 @@ const Navbar = (props) => {
                 justify="space-between"
             >
                 <Flex align="center">
-                    <Heading as="h1" size="lg" letterSpacing={"tighter"} color={useColorModeValue("black", "white")}>
+                    <Heading as="h1" size="lg" color={useColorModeValue("black", "white")}>
                         <Logo />
                     </Heading>
                 </Flex>
